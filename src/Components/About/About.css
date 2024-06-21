@@ -1,0 +1,135 @@
+.about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-title h1{
+    font-size: 35px;
+}
+
+.about-title h1 span{
+    background: linear-gradient(270deg,#2d0505 .1%, red 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.software-logos{
+    display: flex;
+    flex-direction:row;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+h1.software{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+span{
+    background: linear-gradient(270deg,#941212 .1%, red 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-text h2{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.counter{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .about-container {
+        padding: 40px;
+    }
+
+    .about-title h1 {
+        font-size: 28px;
+    }
+
+    h1.software {
+        font-size: 22px;
+    }
+
+    .software-logos img {
+        width: 50px;
+    }
+
+    .counter {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-title h1 {
+        font-size: 24px;
+    }
+
+    .about-container {
+        padding: 30px;
+    }
+
+    h1.software {
+        font-size: 20px;
+    }
+
+    .software-logos img {
+        width: 40px;
+    }
+
+    .about-text h2 {
+        font-size: 18px;
+    }
+
+    .counter {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-title h1 {
+        font-size: 20px;
+    }
+
+    .about-container {
+        padding: 20px;
+    }
+
+    .software-logos {
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    h1.software {
+        font-size: 18px;
+    }
+
+    .software-logos img {
+        width: 30px;
+    }
+
+    .about-text h2 {
+        font-size: 16px;
+    }
+
+    .counter {
+        font-size: 24px;
+    }
+}

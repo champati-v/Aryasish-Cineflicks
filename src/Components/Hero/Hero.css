@@ -1,0 +1,145 @@
+.hero-section{
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.hero-text h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.hero-text h1 span{
+    background: linear-gradient(270deg,#2d0505 .1%, red 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-text h3{
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.hero-image img{
+    width: 800px;
+}
+
+.book-now{
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 25px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, red 0.102%, #000000 102.06%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.book-now:hover{
+    background: linear-gradient(267deg, #000000 0.102%,  red     102.6%);
+    scale: 1.05;
+    color: white;
+}
+
+.container-text p span{
+    background: linear-gradient(270deg,#670c0c .1%, red 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.container-image img{
+    width: 600px;
+}
+
+.container-text{
+    margin-left: 35px;
+    font-size: 22px;
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    
+    .hero-section{
+        display: flex;
+        flex-direction:row;
+    }
+    
+    .hero-image img{
+        width: 300px;
+    }
+
+    .hero-text h1{
+        font-size: 25px;
+    }
+
+    .book-now{
+        padding: 5px 20px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-image img{
+        width: 200px;
+    }
+
+    .container-text p{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 480px) {
+    .hero-section{
+        padding-left: 20px;
+        padding-right:20px;
+    }
+
+    .hero-image img{
+        width: 250px;
+    }
+
+    .hero-text h1{
+        font-size: 15px;
+    }
+
+    .hero-text h3{
+        font-size: 15px;
+    }
+
+    .hero-text button{
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-text p{
+        font-size: 15px;
+    }
+
+    .container-text p span{
+        font-size: 15px;
+    }
+}
