@@ -90,9 +90,11 @@
     }
 
     .nav-mob-open{
+      width: 30px;
       display: block;
       position: fixed;
       right: 30px;
+      cursor: pointer;
     }
 
     .nav-mob-close{
@@ -101,6 +103,7 @@
       top: 30px;
       left: 290px;
       width: 30px;
+      cursor: pointer;
     }
 
     .nav-menu{
@@ -140,7 +143,7 @@
     }
 
     .nav-mob-open{
-      width: 50px;
+      width: 30px;
       display: block;
       position: sticky;
       right: 30px;
@@ -173,6 +176,10 @@
       padding-left: 100px;
       flex-direction: row;
       gap: 20px;
+    }
+
+    .anchor-link{
+      font-size: 20px;
     }
 
   }

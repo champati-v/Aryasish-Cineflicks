@@ -34,8 +34,6 @@ const Contact = () => {
 
   return (
     <div className="contact" id="contact" >
-      
-
       <div className="contact-section">
         <div className="contact-left">
           <h1>Let's talk</h1>
@@ -62,6 +60,7 @@ const Contact = () => {
         <h1>Get in Touch</h1>
       </div>
       
+      <div className="contact-form">
         <form  onSubmit={onSubmit} className="contact-right">
           <label htmlFor="">Your Name</label>
           <input type="text" placeholder="Enter your name" name="name" />
@@ -84,9 +83,10 @@ const Contact = () => {
             Submit Now
           </button>
         </form>
+      </div> 
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Contact;

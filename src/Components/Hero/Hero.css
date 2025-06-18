@@ -78,7 +78,7 @@
     
     .hero-section{
         display: flex;
-        flex-direction:row;
+        flex-direction:column;
     }
     
     .hero-image img{
@@ -95,7 +95,7 @@
 
     .container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column-reverse;
     }
 
     .container-image img{
@@ -114,11 +114,11 @@
     }
 
     .hero-image img{
-        width: 250px;
+        width: 350px;
     }
 
     .hero-text h1{
-        font-size: 15px;
+        font-size: 25px;
     }
 
     .hero-text h3{
@@ -136,10 +136,19 @@
     }
 
     .container-text p{
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .container-text p span{
-        font-size: 15px;
+        font-size: 16px;
+    }
+
+    .container-image{
+        margin-top: 20px;
+    }
+
+    .container-image img{
+        margin-top: 20px;
+        width: 250px;
     }
 }
